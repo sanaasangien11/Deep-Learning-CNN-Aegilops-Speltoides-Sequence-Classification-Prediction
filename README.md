@@ -1,6 +1,7 @@
 Convolutional Neural Network Pipeline 
 
 Attribuition:
+
 The original CNN script and model architecture were developed by a member
 of Network Analysis and Modelling group at IPK Gatersleben. 
 This version has been adapted and optimized by me for the present
