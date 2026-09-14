@@ -11,12 +11,13 @@ cis/trans classification.
 This project uses a 1D CNN to classify genes based on genomic sequence information and investigate whether sequence patterns learned from A-chromosome genes can be transferred to B-chromosome genes in Aegilops speltoides.
 
 Workflow
-Extracted fixed-length regulatory sequences surrounding genes
-One-hot encoded DNA sequences
-Trained a 1D CNN on A-chromosome sequences
-Applied the trained model to B-chromosome sequences
-Addressed class imbalance through random downsampling
-Evaluated predictions using Accuracy, AUROC, Precision, Recall, F1-score and a confusion matrix
-Predict class probabilities 
-Cis/trnas classification
+
+1. Extracted fixed-length regulatory sequences surrounding genes
+2. One-hot encoded DNA sequences
+3. Trained a 1D CNN on A-chromosome sequences
+4. Applied the trained model to B-chromosome sequences
+5. Addressed class imbalance through random downsampling
+5. Evaluated predictions using Accuracy, AUROC, Precision, Recall, F1-score and a confusion matrix
+6. Predict class probabilities 
+7. Cis/trnas classification
 
