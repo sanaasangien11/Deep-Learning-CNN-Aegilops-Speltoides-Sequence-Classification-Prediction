@@ -2,11 +2,10 @@ Convolutional Neural Network Pipeline
 
 Attribuition:
 
-The original CNN script and model architecture were developed by a member
+The original CNN script and model architecture was developed by a member
 of Network Analysis and Modelling group at IPK Gatersleben. 
-This version has been adapted and optimized by me for the present
-Aegilops speltoides dataset, including data preprocessing, sequence
-formatting, class assignment, model training/evaluation, and downstream
+This version has been adapted and optimized by me for the 
+Aegilops speltoides transcriptomic dataset, including data preprocessing, sequence formatting, class assignment, model training/evaluation, and downstream
 cis/trans classification.
 
 This project uses a 1D CNN to classify genes based on genomic sequence information and investigate whether sequence patterns learned from A-chromosome genes can be transferred to B-chromosome genes in Aegilops speltoides.
@@ -20,4 +19,24 @@ Workflow
 5. Evaluated predictions using Accuracy, AUROC, Precision, Recall, F1-score and a confusion matrix
 6. Predict class probabilities 
 7. Cis/trnas classification
+
+Requirements
+
+The analysis is implemented using python.
+
+Main packages and tools used in this project may include:
+
+* Python
+* Pandas
+* NumPy
+* Biopython
+* PyTorch
+* keras
+* Tensorflow 
+
+
+Reproducibility
+
+The code is organized to make the transcriptomic analysis workflow reproducible. Depending on the notebooks and software/package versions used, some changes might be required 
+
 
